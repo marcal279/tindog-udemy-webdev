@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#scroll-top-button{
+    font-size: 2rem;
+    color: rgb(255, 126, 148);
+    position: fixed;
+    z-index: 10;
+    top: 92%;
+    left: 97%;
+}
+
+.navbar-nav .nav-link{
+    padding-left: 15px;
+}
+
+.navbar-toggler{
+    border: none;
+    margin-right: 10px;
+}
+
+#title{
+    color: white;
+    background-color: rgb(255, 0, 76);
+}
+
+#initHeading h1{
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#headerInfo{
+    padding: 3% 15% 3% 12.5%;
+}
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+nav ul li{
+    padding-left: 1rem;
+}
+
+.btn{
+    font-size: large;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.button-apple{
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.button-apple:hover{
+    background-color: transparent;
+    transition-duration: 0.3s;
+    color: black;
+}
+
+
+.button-android{
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+    font-weight: 450;
+}
+
+.button-android:hover{
+    background-color: white;
+    color: rgb(255, 0, 76);
+    transition-duration: 0.3s;
+}
+
+.dwnld-logo{
+    font-size: 20px;
+    position: relative;
+    margin-top: -6.5px;
+    padding-right: 7.5px;
+}
+
+#header-iphone{
+    height: 40rem;
+    transform: rotate(20deg);
+    position: relative;
+    /* z-index: -1; */
+}
+
+/* Use https://www.rapidtables.com/web/tools/window-size.html for browser window size, v v useful for breakpoints in responsive webpage */
+
+@media screen and (max-width: 1600px) {
+    #title{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 1164px) {
+    #title{
+        height: 700px;
+    }
+    
+    .btn{
+        margin-bottom: 1rem;
+    }
+
+    #initHeading {
+       margin-top: -5rem;
+    }
+
+    #initHeading h1{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    #title{
+        height: 950px;
+    }
+    
+    .btn{
+        margin-bottom: 0.5rem;
+    }
+}
+
+.featuresLogo{
+    font-size: 4rem;
+    color: #f05555;
+    margin-bottom: 0.5rem;
+}
+
+.featuresLogo:hover{
+    color: rgb(255, 0, 76);
+    transition-duration: 0.15s;
+}
+
+#features{
+    padding: 10% 0rem;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3{
+    font-weight: 600;
+    color: rgb(255, 0, 76);
+}
+
+#features em{
+    padding: 0rem 20% 3rem;
+}
+
+#testimonials{
+    padding: 5%;
+    text-align: center;
+    background-color: #f05555;
+    color: white;
+}
+
+.carousel-indicators{
+    position: relative;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+#testimonials h2{
+    margin: 0rem 25%;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    padding: 2% 1% 2%;
+    height: 7rem;
+}
+
+#press{
+    text-align: center;
+    margin: 7.5% 0rem;
+}
+
+#press h2{
+    color: rgb(255, 0, 76);
+}
+
+#press h5{
+    color: #f05555;
+    margin-bottom: 2.5rem;
+}
+
+#press img{
+    height: 3.5rem;
+    padding: 0.5rem 1rem;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#press img:hover{
+    -webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+#pricing{
+    color: white;
+    background-color: rgb(255, 0, 76);
+    text-align: center;
+    padding: 7.5% 0rem;
+}
+
+#pricing-title{
+    line-height: 1.5;
+}
+#pricing-title p{
+    padding-bottom: 2rem;
+}
+
+#pricing .card{
+    background-color: rgb(255, 0, 76);
+    border-color: white;
+    border-radius: 5%;
+    height: 22rem;
+}
+
+#pricing .card-header{
+    border-color: #f05555;
+}
+
+#pricing .col-md-4{
+    padding-bottom: 2rem;
+}
+
+#cta{
+    padding: 6rem 0rem;
+    text-align: center;
+    color: rgb(255, 0, 76);
+}
+
+#cta .btn{
+    margin-bottom: 0rem;
+}
+
+#cta .button-apple{
+    margin-right: 0rem;
+}
+
+#cta .button-android{
+    background-color: rgb(255, 0, 76);
+    border: solid rgb(255, 0, 76) 2px;
+}
+
+#cta .button-android:hover{
+    background-color: white;
+    border-color: rgb(255, 0, 76);
+}
+
+#contact{
+    background-color: rgb(255, 0, 76);
+    color: white;
+    text-align: center;
+}
+
+#contact i{
+    margin: 1rem 0.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#contact i:hover{
+    transition-duration: 0.3s;
+    background-color: white;
+    color: rgb(255, 0, 76);
+}
+
+footer p{
+    font-size: 10px;
+    margin: 0rem;
+    padding-bottom: 1rem;
+}
