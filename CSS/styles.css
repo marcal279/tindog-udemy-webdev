@@ -135,7 +135,11 @@ nav ul li{
 
 @media screen and (max-width: 989px) {
     #title{
-        height: 950px;
+        height: 1100px;
+    }
+
+    #header-iphone{
+        height: 30rem;
     }
     
     .btn{
